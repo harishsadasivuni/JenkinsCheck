@@ -14,8 +14,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class SecuritydemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecuritydemoApplication.class, args);
 		System.out.println("Harish Comment: Application is Running!!");
+		System.out.println("Aparna is sleeping!!");
+		SpringApplication.run(SecuritydemoApplication.class, args);
+
 	}
 
 }
